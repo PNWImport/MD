@@ -87,10 +87,9 @@ You ask your database (in plain English):
 | Rank | Strategy | Confidence |
 |------|----------|------------|
 | 1 | CompPQ | 100.0% |
-| 2 | CompDQ | 85.0% |
-| 3 | AllHash | 70.0% |
-| 4 | HashDate | 55.0% |
-| 5 | AggOpt | 40.0% |
+| 2 | AllHash | 70.0% |
+| 3 | HashDate | 55.0% |
+| 4 | AggOpt | 40.0% |
 
 ### Step 6: Learning persists across sessions 🔄
 - Next Monday? System already knows.
@@ -237,7 +236,7 @@ Not A/B testing. **Self-optimization and learning.**
 - Each agent specializes in evaluating different optimization strategies
 - Entropy Ledger tracks universal collapse detection
 - Symbolic state tracking ensures coordination
-- Thought Velocity = `t(L, S) = (1 / (κ · L^γ)) · e^(α · S^δ)`
+- Thought Velocity = `BLOCKED`
 
 ### ADI (Adaptive Data Intelligence)
 - **Gravitational Clustering:** Learns hot data patterns
@@ -258,7 +257,6 @@ Not A/B testing. **Self-optimization and learning.**
 
 ---
 
-## 🚀 Try It Yourself
 
 ```bash
 cargo run --release --example ab_testing_showcase_nlstyle
